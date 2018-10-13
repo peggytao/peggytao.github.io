@@ -1,0 +1,158 @@
+.torso,h1{text-align:center}.left_eye,.right_eye{position:relative;top:100px}body{background-image:url(desert.jpg);background-size:cover}h1{font-family:Roboto,sans-serif}.head,.left_arm,.left_leg,.right_arm,.right_leg,.torso{background-color:#000}.head{width:200px;margin:0 auto 10px;height:150px;border-radius:200px 200px 0 0}.head:hover{width:300px;transition:1s ease-in-out}.upper_body{width:300px;height:150px;display:flex;margin:10px auto auto}.upper_body:hover{transition:1s;transform:scale(1.05)}.torso:hover,h1:hover{transform:rotateY(180deg)}.left_arm,.right_arm{width:40px;height:125px;border-radius:100px}.lower_body,.torso{width:200px;height:200px}.left_arm{margin-right:10px}.right_arm{margin-left:10px}.torso{border-radius:0 0 50px 50px;font-family:'Indie Flower',cursive;font-size:39px;color:#fff}@keyframes example{0%{background-color:red}25%{background-color:#ff0}50%{background-color:#000}100%{background-color:green}}.lower_body{margin:0 auto;display:flex}.left_leg,.right_leg{width:40px;height:120px;border-radius:0 0 100px 100px}.left_leg{margin-left:45px}.left_leg:hover{-webkit-transform:rotate(20deg);-moz-transform:rotate(20deg);-o-transform:rotate(20deg);-ms-transform:rotate(20deg);transform:rotate(40deg)}.left_arm:hover{transform:rotate(90deg);transition:1s}.right_leg{margin-left:30px}.right_leg:hover{transform:rotate(-40deg)}.right_arm:hover{transform:rotate(-90deg);transition:1s}.left_eye,.right_eye{width:20px;height:20px;border-radius:15px;background-color:#fff;animation-name:example;animation-duration:8s}.left_eye{left:40px}.right_eye{left:120px}
+
+/*body {
+	background-image: url("desert.jpg");
+	background-size: cover;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+.robots {
+
+}
+
+.head, 
+.left_arm, 
+.torso, 
+.right_arm, 
+.left_leg, 
+.right_leg {
+	 background-color:black;
+}
+
+.head { 
+	width: 200px; 
+	margin: 0 auto; 
+	height: 150px; 
+	border-radius: 200px 200px 0 0; 
+	margin-bottom: 10px;
+} 
+
+.eyes {
+	
+}
+
+.head:hover {
+	width: 300px;
+    transition: 1s ease-in-out;
+}
+
+.upper_body { 
+	width: 300px; 
+	height: 150px;
+	display: flex; 
+	margin: auto; 
+	margin-top: 10px;
+}
+
+.upper_body:hover {
+	transition: 1s;
+	transform: scale(1.05);
+}
+
+.left_arm, .right_arm { 
+	width: 40px; 
+	height: 125px;
+	border-radius: 100px; 
+} 
+
+.left_arm { 
+	margin-right: 10px; 
+} 
+
+.right_arm { 
+	margin-left: 10px; 
+} 
+
+.torso { 
+	width: 200px; 
+	height: 200px;
+	border-radius: 0 0 50px 50px; 
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
+	font-size: 39px;
+	color: white;
+} 
+
+.torso:hover {
+	transform: rotateY(180deg);
+}
+
+@keyframes example {
+	0% {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: black;}
+    100% {background-color: green;}
+} 
+
+h1:hover {
+	transform: rotateY(180deg);
+}
+
+.lower_body { 
+	width: 200px; 
+	height: 200px;
+	margin: 0 auto;
+	display: flex; 
+} 
+
+.left_leg, .right_leg { 
+	width: 40px; 
+	height: 120px;
+	border-radius: 0 0 100px 100px; 
+} 
+
+.left_leg { 
+	margin-left: 45px; 
+} 
+
+.left_leg:hover {
+	-webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(40deg); 
+}
+
+.left_arm:hover {
+    transform: rotate(90deg);
+    transition: 1s;
+}
+
+.right_leg { 
+	margin-left : 30px; 
+}
+
+.right_leg:hover {
+	transform: rotate(-40deg);
+}
+
+.right_arm:hover {
+	transform: rotate(-90deg);
+	transition: 1s;    
+}
+
+.left_eye, .right_eye { 
+	width: 20px; 
+	height: 20px; 
+	border-radius: 15px; 
+	background-color: white; 
+	animation-name: example;
+    animation-duration: 8s; 
+} 
+
+.left_eye { 
+	position: relative; 
+	top: 100px; 
+	left: 40px; 
+} 
+
+.right_eye { 
+	position: relative; 
+	top: 100px; 
+	left: 120px; 
+}
+*/
